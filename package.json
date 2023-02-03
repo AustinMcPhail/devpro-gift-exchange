@@ -1,0 +1,22 @@
+{
+  "name": "gift-exchange-exercise",
+  "version": "1.0.0",
+  "description": "This year for the company Christmas party, the party planning committee decided to spice up the Christmas gift exchange by adding some additional parameters to the game.",
+  "main": "index.tx",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinMcPhail/devpro-gift-exchange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinMcPhail/devpro-gift-exchange/issues"
+  },
+  "homepage": "https://github.com/AustinMcPhail/devpro-gift-exchange#readme",
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  }
+}
