@@ -126,8 +126,7 @@ export class GiftExchange {
           break
         };
         const victim = selectRandom(playersWithGifts);
-        player.gift = victim.gift;
-        victim.gift = '';
+        player.swapGifts(victim);
         if (this.logResults)console.log(`P${playerId}-STEAL`, `Stole gift from P${victim.id}, got ${player.gift}.`);
         break;
       };
