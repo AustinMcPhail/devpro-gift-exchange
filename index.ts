@@ -1,4 +1,4 @@
-import { GiftExchange } from "./models";
+import { GiftExchange } from "./models/GIftExchange";
 
 play(true);
 
